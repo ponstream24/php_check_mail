@@ -79,6 +79,25 @@ Json型での出力になります。<br>
  </tbody>
 </table>
 
+## レスポンス例
+```json
+{
+    "status": true,
+    "syntax": true,
+    "timestamp": 1656474177,
+    "email-address": "info@itsystem-lab.com",
+    "user": "info",
+    "domain": "itsystem-lab.com",
+    "mail-server": "〇〇〇〇",
+    "log": [
+        "220 〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇",
+        "250 〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇",
+        "250 〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇",
+        "250 〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇"
+    ],
+    "error": []
+}
+```
 
 ## 解説
 このシステムは、PHPを使用しており、[APIサービス(DNSレコードの取得)](https://api.itsystem-lab.com/dns) を使用しております。
