@@ -106,7 +106,7 @@ Json型での出力になります。<br>
 このソースを使用する際は、必ず `.htaccess`も設置してください。
 その際は、8行目のパスを書き換えてください。
 ```.htaccess
-RewriteRule . /dns/index.php [L]  # ここを書き換えてください。
+RewriteRule . /emailCheck/index.php [L]  # ここを書き換えてください。
 ```
  <br> <br>
 > ITシステムラボ : https://www.itsystem-lab.com/
