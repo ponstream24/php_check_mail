@@ -64,7 +64,7 @@ Json型での出力になります。<br>
    <tr>
        <td>mail-server</td>
        <td>string型</td>
-       <td><メールアドレスチェックに使用したメールサーバー(MXレコード)/td>
+       <td><メールアドレスチェックに使用したメールサーバー(MXレコード)</td>
    </tr>
    <tr>
        <td>log</td>
