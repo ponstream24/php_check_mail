@@ -159,13 +159,13 @@ if( count($error) == 0 ){
             if($socket){
 
                 // localhostに挨拶する
-                fwrite($socket, "helo localhost\n");
+                fwrite($socket, "helo localhost\r\n");
 
                 // メールの送り主を設定する
-                fwrite($socket, "mail from:<info@itsystem-lab.com>\n");
+                fwrite($socket, "mail from:<info@itsystem-lab.com>\r\n");
 
                 // 宛先のメールアドレスの存在確認
-                fwrite($socket, "rcpt to:<$email>\n");
+                fwrite($socket, "rcpt to:<$email>\r\n");
 
                 // // ソケットのレスポンスを回収 (4つ)
                 for ($i=0; $i < 4 ; $i++) { 
